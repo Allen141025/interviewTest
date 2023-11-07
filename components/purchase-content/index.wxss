@@ -1,0 +1,70 @@
+/* components/order-purchase/index.wxss */
+.common-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.common-view {
+  flex: 1;
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.common-selected {
+  border: 1rpx solid #3491FA;
+  background-color: #E8F7FF;
+  border-radius: 15rpx;
+}
+
+.common-default {
+  border: 1rpx solid #cccccc;
+  background-color: #ffffff;
+  border-radius: 15rpx;
+}
+
+.common-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40rpx;
+}
+
+.left-price {
+  color: #3491FA;
+  margin-right: 20rpx;
+}
+
+.right-price {
+  color: #A9AEB8;
+  text-decoration: line-through;
+}
+
+.common-footer {
+  position: fixed;
+  left: 80rpx;
+  bottom: 140rpx;
+  text-align: center;
+  width: 600rpx;
+}
+
+.footer-member-left {
+  color: #4E5969;
+}
+
+.footer-member-right {
+  color: #3491FA;
+}
+
+.submit-btn {
+  background-color: #23A3FF;
+  color: #FFF;
+  line-height: 80rpx;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.submit-price {
+  margin-right: 15rpx;
+  font-size: 36rpx;
+}

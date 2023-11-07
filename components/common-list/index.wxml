@@ -1,0 +1,12 @@
+<!--components/common-list/index.wxml-->
+<view class="container">
+  <view class="box" wx:for="{{activity_list}}" wx:key="index">
+    <view class="img-box">
+      <image src="{{item.activity_photo}}" class="image" mode="aspectFill" lazy-load="true" />
+    </view>
+    <view class="title">{{item.activity_name}}</view>
+    <view style='display:flex;'>
+      <view class="num">{{item.num}}人表态</view>
+    </view>
+  </view>
+</view>

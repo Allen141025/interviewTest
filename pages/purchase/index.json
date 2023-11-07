@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "购买",
+  "usingComponents": {
+    "purchase": "/components/purchase-content/index"
+  }
+}

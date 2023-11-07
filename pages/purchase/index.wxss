@@ -1,0 +1,27 @@
+/* pages/purchase/index.wxss */
+/* 导航栏 */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.nav-item {
+  height: 98%;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #8A8F99;
+}
+
+.nav-active {
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 2rpx solid #549BF0;
+}
+
+/* 内容主体 */
+.content {
+  flex: 1;
+  padding: 40rpx;
+}

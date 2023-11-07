@@ -1,0 +1,20 @@
+<!--components/order-purchase/index.wxml-->
+<view class="common-content">
+  <view class="common-view" wx:for="{{purchasePrice}}" wx:key="index" bindtap="navChangePurchase" data-index="{{index}}">
+    <view class="common-item {{commonIndex === index?'common-selected':'common-default'}}">
+      <text>{{item.num}}</text>
+      <view>
+        <text class="left-price">￥{{item.preferentialPrice}}</text>
+        <text class="right-price">￥{{item.originalPrice}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="common-footer">
+    <text class="footer-member-left">开通前请阅读</text>
+    <text class="footer-member-right">《会员服务协议》</text>
+    <view class="submit-btn">
+      <text class="submit-price">￥{{purchasePrice[commonIndex].preferentialPrice}}</text>
+      <text>立即购买</text>
+    </view>
+  </view>
+</view>

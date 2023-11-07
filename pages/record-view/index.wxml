@@ -1,0 +1,10 @@
+<!--pages/record-view/index.wxml-->
+<view class="record-content">
+  <view class="record-item" wx:for="{{recordView}}" wx:key="index">
+    <view>
+      <view class="item-title">{{item.title}}</view>
+      <view class="item-time">{{item.time}}</view>
+    </view>
+    <view class="item-num">{{item.num}}</view>
+  </view>
+</view>

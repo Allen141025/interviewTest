@@ -1,0 +1,12 @@
+<!--pages/purchase/index.wxml-->
+<view class="purchase-container">
+  <view class="nav">
+    <view wx:for="{{navList}}" wx:key="index" class="nav-item {{item.index==chosed?'nav-active':''}}" data-index="{{item.index}}" bindtap="navChange">
+      {{item.title}}
+    </view>
+  </view>
+  <view class="content">
+    <purchase wx:if="{{ chosed === 1 }}" commonPurchase="{{orderPurchase}}"></purchase>
+    <purchase wx:if="{{ chosed === 2 }}" commonPurchase="{{yearPurchase}}"></purchase>
+  </view>
+</view>

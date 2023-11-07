@@ -1,0 +1,69 @@
+<!--pages/usercenter/index.wxml-->
+<view class="user-info-wrap">
+  <!-- 登录 -->
+  <view>
+    <view class="user-info">
+      <image class="user-icon" src="/images/avatar5.png" />
+      <view class="user-name">请注册/登录</view>
+    </view>
+  </view>
+  <!-- 剩余次数 -->
+  <view class="user-num">
+    <view>
+      <text class="remaining">剩余创作次数</text>
+      <text class="num">{{remaining}}次</text>
+    </view>
+    <image class="common-right" src="/images/right.png" />
+  </view>
+  <!-- 列表 -->
+  <view class="other">
+    <!-- 订购 -->
+    <view class="other-item" bindtap="onPurchase">
+      <view class="item-left">
+        <image class="item-image" src="/images/gouwugouwuchedinggou.png" />
+        <text class="item-label">订购</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+    <!-- 创作记录 -->
+    <view class="other-item" bindtap="onRecord">
+      <view class="item-left">
+        <image class="item-image" src="/images/jilu.png" />
+        <text class="item-label">创作记录</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+    <!-- 常见问题 -->
+    <view class="other-item">
+      <view class="item-left">
+        <image class="item-image" src="/images/wenti.png" />
+        <text class="item-label">常见问题</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+    <!-- 联系客服 -->
+    <view class="other-item">
+      <view class="item-left">
+        <image class="item-image" src="/images/kefu.png" />
+        <text class="item-label">联系客服</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+    <!-- 关于 -->
+    <view class="other-item">
+      <view class="item-left">
+        <image class="item-image" src="/images/guanyu.png" />
+        <text class="item-label">关于</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+    <!-- 分享有礼 -->
+    <view class="other-item">
+      <view class="item-left">
+        <image class="item-image" src="/images/fenxiang.png" />
+        <text class="item-label">分享有礼</text>
+      </view>
+      <image class="common-right" src="/images/right.png" />
+    </view>
+  </view>
+</view>

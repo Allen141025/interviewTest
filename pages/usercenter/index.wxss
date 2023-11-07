@@ -1,0 +1,81 @@
+/* pages/usercenter/index.wxss */
+.user-info-wrap {
+  padding: 25rpx;
+  background-color: #F9F9F9;
+  height: 100vh;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 40rpx 20rpx;
+}
+
+.user-icon {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.user-name {
+  margin-left: 20rpx;
+}
+
+.user-num {
+  line-height: 100rpx;
+  background-color: #C3E7FE;
+  border-radius: 10rpx;
+  padding: 0 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.remaining {
+  color: #86909C;
+  font-size: 26rpx;
+}
+
+.num {
+  margin-left: 20rpx;
+  color: #57A9FB;
+}
+
+.common-right {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.other {
+  background-color: #ffffff;
+  margin-top: 25rpx;
+  padding: 0 25rpx;
+}
+
+.other-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  line-height: 80rpx;
+}
+
+.other-left {
+  display: flex;
+  align-items: center;
+}
+
+.item-left {
+  display: flex;
+  align-items: center;
+}
+
+.item-image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 15rpx;
+}
+
+.item-label {
+  font-size: 30rpx;
+}

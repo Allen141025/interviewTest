@@ -1,0 +1,4 @@
+<!--pages/record/index.wxml-->
+<view>
+  <commonList bindtap="goRecodeView"></commonList>
+</view>

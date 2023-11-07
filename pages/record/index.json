@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "创作记录",
+  "usingComponents": {
+    "commonList": "/components/common-list/index"
+  }
+}
